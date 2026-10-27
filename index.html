@@ -4,342 +4,413 @@
 <meta name="robots" content="noindex, nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Green Acres Ironworks, Inc. | Custom Railings, Gates &amp; Stairs | Schererville, IN</title>
-<meta name="description" content="Green Acres Ironworks, Inc. designs and fabricates unique, handcrafted railings, stairs, gates and fences in Schererville, Indiana.">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<title>Green Acres Ironworks, Inc. | Custom Iron Railings, Stairs, Gates and Fences in Schererville, IN</title>
+<meta name="description" content="Green Acres Ironworks, Inc. designs and hand-builds custom railings, stairs, gates, fences and ornamental ironwork in Schererville, IN, serving Northwest Indiana and the Chicagoland South Suburbs.">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{
-  --black:#111214;
-  --iron:#1b1d20;
-  --char:#25282c;
-  --steel:#8d939a;
-  --steel-lt:#c4c8cc;
-  --white:#eef0f1;
-  --ember:#e8692a;
-  --ember-hot:#ff8a3d;
-  --line:#33373c;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--black);color:var(--steel-lt);font-family:"Helvetica Neue",Arial,system-ui,sans-serif;font-size:1rem;line-height:1.6}
-a{color:inherit}
-img{display:block;max-width:100%}
-h1,h2,h3,.stamp{font-family:"Oswald","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--white);line-height:1.02}
-.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
-.skip{position:absolute;left:-999px}
-.skip:focus{left:1rem;top:1rem;background:var(--ember);color:#111;padding:.5rem 1rem;z-index:99}
+  :root{
+    --black:#111214;
+    --char:#1a1c1f;
+    --graphite:#24272b;
+    --gunmetal:#33383e;
+    --steel:#5a6169;
+    --rule:#3a3f45;
+    --text:#e6e3de;
+    --muted:#a9adb2;
+    --ember:#ff6a1a;
+    --amber:#ffa02e;
+    --head:"Big Shoulders Stencil Display", "Arial Narrow", Impact, sans-serif;
+    --body:"Barlow", "Helvetica Neue", Arial, sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--black);color:var(--text);font-family:var(--body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+  h1,h2,h3{font-family:var(--head);font-weight:900;text-transform:uppercase;letter-spacing:.02em;line-height:.95;margin:0;text-shadow:0 1px 0 rgba(0,0,0,.6),0 -1px 0 rgba(255,255,255,.04)}
+  p{margin:0 0 1em}
+  .wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+  .skip{position:absolute;left:-9999px}
+  .skip:focus{left:1rem;top:1rem;background:var(--ember);color:#111;padding:.5rem 1rem;z-index:99}
 
-/* photo slots */
-.photo{background:linear-gradient(160deg,#2a2d31,#16181a);object-fit:cover;width:100%;height:100%;color:transparent}
+  /* Header */
+  .site-header{position:sticky;top:0;z-index:50;background:rgba(17,18,20,.94);border-bottom:1px solid var(--rule);backdrop-filter:blur(6px)}
+  .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 0}
+  .brand{display:flex;align-items:center;gap:.65rem;text-decoration:none}
+  .brand-mark{width:34px;height:34px;flex:none}
+  .brand-name{font-family:var(--head);font-weight:900;font-size:1.35rem;text-transform:uppercase;letter-spacing:.04em;line-height:1}
+  .brand-name span{display:block;font-family:var(--body);font-weight:600;font-size:.68rem;letter-spacing:.2em;color:var(--muted);margin-top:.2rem}
+  .nav{display:none;gap:1.6rem;font-weight:600;font-size:.92rem;text-transform:uppercase;letter-spacing:.08em}
+  .nav a{text-decoration:none;color:var(--muted)}
+  .nav a:hover,.nav a:focus-visible{color:var(--text)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--body);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.92rem;text-decoration:none;padding:.95rem 1.4rem;border:2px solid var(--ember);border-radius:2px;transition:background .2s,color .2s,box-shadow .2s}
+  .btn-hot{background:var(--ember);color:#141414}
+  .btn-hot:hover,.btn-hot:focus-visible{background:var(--amber);border-color:var(--amber);box-shadow:0 0 24px rgba(255,106,26,.45)}
+  .btn-line{color:var(--text)}
+  .btn-line:hover,.btn-line:focus-visible{background:rgba(255,106,26,.12)}
+  .btn-sm{padding:.6rem .9rem;font-size:.8rem}
 
-/* header */
-header.top{position:sticky;top:0;z-index:20;background:rgba(17,18,20,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(6px)}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 0}
-.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
-.plate{border:2px solid var(--steel);padding:.2rem .55rem;font-family:Oswald,sans-serif;font-weight:700;font-size:1.05rem;color:var(--white);letter-spacing:.08em;box-shadow:inset 0 0 0 2px var(--black),inset 0 0 0 3px #3e4247;background:linear-gradient(180deg,#2c2f33,#1c1e21)}
-.brand small{display:none;color:var(--steel);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em}
-nav ul{display:none;list-style:none;gap:1.6rem}
-nav a{text-decoration:none;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:.9rem;color:var(--steel-lt)}
-nav a:hover{color:var(--ember-hot)}
-.btn{display:inline-block;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.1em;font-weight:600;text-decoration:none;padding:.85rem 1.4rem;border-radius:2px;border:2px solid var(--ember);background:var(--ember);color:#140a04;transition:background .2s,color .2s}
-.btn:hover,.btn:focus-visible{background:var(--ember-hot);border-color:var(--ember-hot)}
-.btn.ghost{background:transparent;color:var(--white);border-color:var(--steel)}
-.btn.ghost:hover{border-color:var(--ember);color:var(--ember-hot);background:transparent}
-.btn.sm{padding:.55rem .9rem;font-size:.85rem}
+  /* Hero */
+  .hero{padding:3.5rem 0 2.5rem;background:radial-gradient(ellipse 70% 60% at 85% 10%,rgba(255,106,26,.16),transparent 60%),linear-gradient(180deg,var(--char),var(--black))}
+  .kicker{display:inline-block;font-weight:700;font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);border-left:3px solid var(--ember);padding-left:.7rem;margin-bottom:1.2rem}
+  .hero h1{font-size:clamp(3.2rem,13vw,8.5rem)}
+  .hero h1 .hot{color:var(--ember);text-shadow:0 0 30px rgba(255,106,26,.35)}
+  .hero-lede{max-width:38rem;color:var(--muted);font-size:1.15rem;margin:1.4rem 0 1.8rem}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.8rem}
+  .hero-facts{display:flex;flex-wrap:wrap;gap:1.5rem 2.5rem;margin-top:2.4rem;padding-top:1.4rem;border-top:1px solid var(--rule)}
+  .fact strong{display:block;font-family:var(--head);font-size:2rem;font-weight:900;line-height:1;color:var(--text)}
+  .fact span{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+  .stars{color:var(--amber);letter-spacing:.1em}
 
-/* hero */
-.hero{position:relative;min-height:88vh;display:grid;align-items:end;overflow:hidden;border-bottom:4px solid var(--ember)}
-.hero figure{position:absolute;inset:0}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,11,.96) 8%,rgba(10,10,11,.55) 55%,rgba(10,10,11,.35));pointer-events:none}
-.hero .wrap{position:relative;z-index:2;padding:5rem 0 3.5rem}
-.kicker{display:inline-flex;align-items:center;gap:.6rem;color:var(--ember-hot);font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:.85rem;margin-bottom:1rem}
-.kicker::before{content:"";width:28px;height:3px;background:var(--ember)}
-.hero h1{font-size:clamp(2.8rem,11vw,7.2rem);font-weight:700;max-width:12ch;text-shadow:0 2px 0 #000}
-.hero h1 span{color:var(--ember)}
-.hero p.lede{max-width:56ch;margin:1.4rem 0 2rem;font-size:1.1rem;color:var(--steel-lt)}
-.actions{display:flex;flex-wrap:wrap;gap:.8rem}
-.rivets{display:flex;flex-wrap:wrap;gap:1.6rem;margin-top:2.6rem;padding-top:1.4rem;border-top:1px solid var(--line)}
-.rivets div{font-size:.9rem;color:var(--steel)}
-.rivets strong{display:block;font-family:Oswald,sans-serif;font-size:1.6rem;color:var(--white);letter-spacing:.04em}
+  /* Raw to refined strip */
+  .forge{position:relative;height:240vh;background:var(--black)}
+  .forge-stage{position:sticky;top:60px;height:calc(100vh - 60px);display:flex;flex-direction:column;justify-content:center;padding:1.2rem 0;overflow:hidden}
+  .forge-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;margin-bottom:1rem}
+  .forge-head h2{font-size:clamp(1.8rem,6vw,3.4rem)}
+  .forge-head p{color:var(--muted);margin:0;max-width:22rem;font-size:.95rem}
+  .strip{position:relative;height:min(58vh,520px);border:1px solid var(--rule);background:var(--graphite);overflow:hidden}
+  .strip figure{position:absolute;inset:0;margin:0}
+  .strip img{width:100%;height:100%;object-fit:cover;color:var(--muted);font-size:.9rem}
+  .strip .raw{background:linear-gradient(180deg,#2c3034,#1c1f22)}
+  .strip .raw img{filter:grayscale(.4) contrast(1.05)}
+  .strip .refined{background:linear-gradient(180deg,#3a3229,#1f1c19);clip-path:inset(0 calc(100% - var(--p,0%)) 0 0)}
+  .seam{position:absolute;top:0;bottom:0;left:var(--p,0%);width:4px;margin-left:-2px;background:linear-gradient(180deg,var(--amber),var(--ember),var(--amber));box-shadow:0 0 18px 4px rgba(255,106,26,.6),0 0 60px 10px rgba(255,106,26,.25);pointer-events:none}
+  .strip-label{position:absolute;bottom:1rem;font-family:var(--head);font-weight:800;font-size:clamp(1.1rem,3.5vw,1.8rem);text-transform:uppercase;letter-spacing:.06em;background:rgba(17,18,20,.85);padding:.35rem .8rem;border:1px solid var(--rule)}
+  .strip-label.l{left:1rem}
+  .strip-label.r{right:1rem;color:var(--amber)}
+  .forge-meter{display:flex;align-items:center;gap:.8rem;margin-top:1rem;font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .meter{flex:1;height:3px;background:var(--gunmetal);position:relative}
+  .meter i{position:absolute;inset:0 auto 0 0;width:var(--p,0%);background:var(--ember);box-shadow:0 0 10px var(--ember)}
 
-/* detail strip */
-.detail{padding:4.5rem 0 3.5rem;background:var(--iron)}
-.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1rem;margin-bottom:2rem}
-.sec-head h2{font-size:clamp(2rem,6vw,3.6rem)}
-.sec-head p{max-width:44ch;color:var(--steel)}
-.strip{display:flex;gap:4px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:1rem;scrollbar-color:var(--ember) var(--char)}
-.strip::-webkit-scrollbar{height:8px}
-.strip::-webkit-scrollbar-track{background:var(--char)}
-.strip::-webkit-scrollbar-thumb{background:var(--ember)}
-.strip figure{flex:0 0 82vw;max-width:520px;height:62vh;min-height:360px;max-height:560px;position:relative;scroll-snap-align:start;overflow:hidden}
-.strip figure:first-child{margin-left:max(1.25rem,calc((100vw - 1180px)/2))}
-.strip figcaption{position:absolute;left:0;right:0;bottom:0;padding:1.2rem 1.2rem 1rem;background:linear-gradient(0deg,rgba(10,10,11,.92),transparent);}
-.strip figcaption b{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--white);font-size:1.25rem;font-weight:600;display:block}
-.strip figcaption span{font-size:.9rem;color:var(--steel-lt)}
-.strip-hint{color:var(--steel);font-size:.85rem;text-transform:uppercase;letter-spacing:.14em;margin-top:.6rem}
-.strip-hint b{color:var(--ember)}
+  /* Sections */
+  section{scroll-margin-top:70px}
+  .sec{padding:4.5rem 0}
+  .sec-head{max-width:44rem;margin-bottom:2.6rem}
+  .sec-head h2{font-size:clamp(2.4rem,8vw,4.6rem);margin-bottom:1rem}
+  .sec-head p{color:var(--muted);font-size:1.1rem}
+  .hot{color:var(--ember)}
 
-/* services */
-.services{padding:5rem 0;background:var(--black)}
-.grid{display:grid;gap:1.25rem;grid-template-columns:1fr}
-.card{background:var(--char);border:1px solid var(--line);display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
-.card:hover{border-color:var(--ember);transform:translateY(-3px)}
-.card .ph{aspect-ratio:4/3;overflow:hidden;border-bottom:3px solid var(--ember)}
-.card .body{padding:1.3rem 1.3rem 1.5rem}
-.card h3{font-size:1.5rem;margin-bottom:.45rem}
-.card p{color:var(--steel-lt);font-size:.96rem}
+  /* About */
+  .about{background:var(--char);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+  .about-grid{display:grid;gap:2.2rem}
+  .about-photo{margin:0;aspect-ratio:4/5;background:linear-gradient(160deg,#3b3029,#1a1b1d);border:1px solid var(--rule);position:relative}
+  .about-photo img{width:100%;height:100%;object-fit:cover;color:var(--muted);font-size:.9rem}
+  .about-photo::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--ember)}
+  .about-copy h2{font-size:clamp(2.4rem,8vw,4.4rem);margin-bottom:1.2rem}
+  .about-copy p{color:#cfccc6}
+  .points{list-style:none;padding:0;margin:1.6rem 0 0;display:grid;gap:.9rem}
+  .points li{padding:1rem 1.1rem;background:var(--graphite);border-left:3px solid var(--ember)}
+  .points strong{display:block;font-family:var(--head);font-weight:800;font-size:1.35rem;text-transform:uppercase;letter-spacing:.03em;line-height:1.1;margin-bottom:.2rem}
+  .points span{color:var(--muted);font-size:.97rem}
 
-/* shop / about */
-.shop{background:var(--iron);padding:5rem 0;border-top:1px solid var(--line)}
-.shop .cols{display:grid;gap:2.5rem}
-.shop figure{aspect-ratio:4/5;overflow:hidden;border:1px solid var(--line)}
-.shop h2{font-size:clamp(2rem,6vw,3.4rem);margin-bottom:1.2rem}
-.shop p{margin-bottom:1rem;max-width:60ch}
-.spec{list-style:none;margin-top:1.6rem;border-top:1px solid var(--line)}
-.spec li{display:flex;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--line)}
-.spec li::before{content:"";flex:0 0 10px;height:10px;margin-top:.5rem;background:var(--ember);border-radius:50%;box-shadow:0 0 10px var(--ember)}
-.spec strong{color:var(--white)}
+  /* Services */
+  .services-grid{display:grid;gap:1.2rem}
+  .svc{background:var(--char);border:1px solid var(--rule);display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
+  .svc:hover{border-color:var(--ember);transform:translateY(-3px)}
+  .svc figure{margin:0;aspect-ratio:4/3;background:linear-gradient(160deg,#30343a,#18191b);overflow:hidden;border-bottom:1px solid var(--rule)}
+  .svc img{width:100%;height:100%;object-fit:cover;color:var(--muted);font-size:.85rem}
+  .svc-body{padding:1.2rem 1.25rem 1.4rem}
+  .svc h3{font-size:1.9rem;margin-bottom:.5rem}
+  .svc p{color:var(--muted);margin:0;font-size:.98rem}
+  .svc.feature{border-color:var(--gunmetal)}
+  .svc.feature h3{color:var(--amber)}
 
-/* rating */
-.proof{background:var(--ember);color:#1a0c04;padding:2.6rem 0}
-.proof .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.2rem}
-.proof .big{font-family:Oswald,sans-serif;font-size:clamp(2.6rem,9vw,4.4rem);font-weight:700;line-height:1;color:#140a04}
-.proof p{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:1.15rem;max-width:34ch}
-.proof .btn{background:#140a04;border-color:#140a04;color:var(--white)}
-.proof .btn:hover{background:#000;border-color:#000}
+  /* Materials */
+  .materials{background:linear-gradient(180deg,var(--black),var(--char))}
+  .mat-grid{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .mat{background:var(--graphite);padding:1.6rem 1.4rem}
+  .mat h3{font-size:1.8rem;margin-bottom:.6rem}
+  .mat h3::before{content:"";display:block;width:36px;height:4px;background:var(--ember);margin-bottom:.9rem}
+  .mat p{color:var(--muted);margin:0}
 
-/* contact */
-.contact{padding:5rem 0;background:var(--black)}
-.contact .cols{display:grid;gap:2.5rem}
-.contact h2{font-size:clamp(2.2rem,7vw,4rem);margin-bottom:1rem}
-.contact h2 span{color:var(--ember)}
-.facts{margin-top:2rem;display:grid;gap:1rem}
-.fact{background:var(--char);border-left:4px solid var(--ember);padding:1rem 1.2rem}
-.fact .stamp{font-size:.8rem;color:var(--steel);letter-spacing:.16em;display:block;margin-bottom:.2rem}
-.fact a,.fact address{font-style:normal;color:var(--white);font-size:1.1rem;text-decoration:none}
-.fact a:hover{color:var(--ember-hot)}
-form{background:var(--char);border:1px solid var(--line);padding:1.6rem;display:grid;gap:1rem}
-form h3{font-size:1.5rem}
-label{display:grid;gap:.35rem;font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;color:var(--steel)}
-input,select,textarea{font:inherit;color:var(--white);background:var(--black);border:1px solid #44494f;border-radius:2px;padding:.75rem .85rem}
-input:focus,select:focus,textarea:focus{outline:2px solid var(--ember);outline-offset:1px;border-color:var(--ember)}
-textarea{min-height:120px;resize:vertical}
-form .note{font-size:.85rem;color:var(--steel)}
+  /* Process */
+  .steps{list-style:none;padding:0;margin:0;display:grid;gap:1.2rem}
+  .step{position:relative;padding:1.6rem 1.4rem 1.5rem;background:var(--char);border:1px solid var(--rule)}
+  .step h3{font-size:1.9rem;margin-bottom:.5rem}
+  .step p{color:var(--muted);margin:0}
+  .step .tag{font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);display:block;margin-bottom:.6rem}
 
-footer{background:#0a0b0c;border-top:1px solid var(--line);padding:2.5rem 0;font-size:.9rem;color:var(--steel)}
-footer .wrap{display:grid;gap:1rem}
-footer .plate{display:inline-block}
+  /* CTA / Contact */
+  .contact{background:radial-gradient(ellipse 60% 70% at 10% 100%,rgba(255,106,26,.2),transparent 60%),var(--char);border-top:4px solid var(--ember)}
+  .contact-grid{display:grid;gap:2.5rem}
+  .contact h2{font-size:clamp(2.8rem,10vw,5.6rem);margin-bottom:1rem}
+  .contact .lede{color:#cfccc6;font-size:1.15rem;max-width:34rem}
+  .phone-big{display:inline-block;font-family:var(--head);font-weight:900;font-size:clamp(2.4rem,9vw,4rem);color:var(--ember);text-decoration:none;line-height:1;margin:.6rem 0 1.4rem;text-shadow:0 0 28px rgba(255,106,26,.3)}
+  .phone-big:hover,.phone-big:focus-visible{color:var(--amber)}
+  .info{background:var(--graphite);border:1px solid var(--rule);padding:1.6rem}
+  .info dl{margin:0;display:grid;gap:1.2rem}
+  .info dt{font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin-bottom:.2rem}
+  .info dd{margin:0;font-size:1.05rem}
+  .info a{text-decoration-color:var(--ember);text-underline-offset:3px}
+  .bring{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.95rem}
+  .bring ul{margin:.4rem 0 0;padding-left:1.1rem}
 
-@media(min-width:640px){
-  .grid{grid-template-columns:repeat(2,1fr)}
-  .brand small{display:block}
-  .strip figure{flex-basis:46vw}
-}
-@media(min-width:900px){
-  nav ul{display:flex}
-  .grid{grid-template-columns:repeat(3,1fr)}
-  .shop .cols{grid-template-columns:5fr 6fr;align-items:center}
-  .contact .cols{grid-template-columns:1fr 1fr;align-items:start}
-  .strip figure{flex-basis:34vw}
-  footer .wrap{grid-template-columns:1fr auto;align-items:center}
-}
-@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+  /* Footer */
+  footer{background:var(--black);border-top:1px solid var(--rule);padding:2rem 0;color:var(--muted);font-size:.9rem}
+  footer .wrap{display:flex;flex-direction:column;gap:.6rem}
+  footer strong{color:var(--text);font-family:var(--head);font-size:1.2rem;text-transform:uppercase;letter-spacing:.04em}
+
+  /* Mobile call bar */
+  .callbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;border-top:2px solid var(--ember)}
+  .callbar a{flex:1;text-align:center;padding:.9rem .5rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;text-decoration:none}
+  .callbar .c1{background:var(--ember);color:#141414}
+  .callbar .c2{background:var(--graphite);color:var(--text)}
+  body{padding-bottom:52px}
+
+  @media (min-width:640px){
+    .services-grid{grid-template-columns:repeat(2,1fr)}
+    .mat-grid{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:repeat(3,1fr)}
+  }
+  @media (min-width:900px){
+    .nav{display:flex}
+    .callbar{display:none}
+    body{padding-bottom:0}
+    .hero{padding:5rem 0 3rem}
+    .about-grid{grid-template-columns:5fr 7fr;align-items:center;gap:3.5rem}
+    .services-grid{grid-template-columns:repeat(3,1fr)}
+    .mat-grid{grid-template-columns:repeat(4,1fr)}
+    .contact-grid{grid-template-columns:7fr 5fr;align-items:start}
+    .sec{padding:6rem 0}
+    footer .wrap{flex-direction:row;justify-content:space-between;align-items:center}
+  }
+  @media (max-width:899px){
+    .forge-head p{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .forge{height:auto}
+    .forge-stage{position:static;height:auto;padding:2rem 0}
+    .strip{height:auto;display:grid;grid-template-columns:1fr 1fr}
+    .strip figure{position:relative;aspect-ratio:4/3}
+    .strip .refined{clip-path:none}
+    .seam,.forge-meter{display:none}
+    .svc,.svc:hover{transform:none}
+  }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="top">
+<header class="site-header">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Green Acres Ironworks home">
-      <span class="plate">GREEN ACRES IRONWORKS</span>
-      <small>Schererville, IN</small>
+      <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true">
+        <rect x="1" y="1" width="32" height="32" fill="#1a1c1f" stroke="#ff6a1a" stroke-width="2"/>
+        <path d="M8 26V8M26 26V8M8 13h18M8 26h18M13 13v13M17 13v13M21 13v13" stroke="#e6e3de" stroke-width="2" fill="none"/>
+      </svg>
+      <span class="brand-name">Green Acres Ironworks<span>Schererville, Indiana</span></span>
     </a>
-    <nav aria-label="Main">
-      <ul>
-        <li><a href="#detail">Up Close</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#shop">The Shop</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="nav" aria-label="Main">
+      <a href="#shop">The Shop</a>
+      <a href="#work">What We Build</a>
+      <a href="#process">How It Works</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="btn sm" href="#contact">Free Quote</a>
+    <a class="btn btn-hot btn-sm" href="#contact">Free Quote</a>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero" id="top" aria-labelledby="hero-h">
-    <figure>
-      <img class="photo" src="" alt="Ironworker welding a custom steel railing in a fabrication shop with sparks flying" data-photo-query="ironworker welding custom steel railing sparks fabrication shop">
-    </figure>
+  <section class="hero" id="top" aria-labelledby="hero-title">
     <div class="wrap">
-      <p class="kicker">Custom Ironworks · Schererville, Indiana</p>
-      <h1 id="hero-h">Hand-built iron. <span>Made to last.</span></h1>
-      <p class="lede">Green Acres Ironworks designs and fabricates unique, handcrafted railings, stairs, gates and fences — one-off pieces built in our shop for homes, decks, porches and job sites across Northwest Indiana.</p>
-      <div class="actions">
-        <a class="btn" href="#contact">Request a Free Quote</a>
-        <a class="btn ghost" href="tel:+12199409295">Call (219) 940-9295</a>
+      <span class="kicker">Custom Metal Fabrication &middot; Schererville, IN</span>
+      <h1 id="hero-title">Forged by hand.<br><span class="hot">Built to stay.</span></h1>
+      <p class="hero-lede">Green Acres Ironworks designs and fabricates unique, handcrafted railings, stairs, gates and fences for homes across Northwest Indiana and the Chicagoland South Suburbs. No catalog kits. Every piece starts as raw steel on our shop floor.</p>
+      <div class="hero-actions">
+        <a class="btn btn-hot" href="#contact">Request a Free Quote</a>
+        <a class="btn btn-line" href="tel:+12199409295">Call (219) 940-9295</a>
       </div>
-      <div class="rivets">
-        <div><strong>4.8 ★</strong>Across 24 reviews</div>
-        <div><strong>Custom</strong>Not catalog parts</div>
-        <div><strong>One Shop</strong>Railings to window guards</div>
+      <div class="hero-facts">
+        <div class="fact"><strong><span class="stars" aria-hidden="true">&#9733;</span> 4.8</strong><span>Rating from 24 reviews</span></div>
+        <div class="fact"><strong>Made to order</strong><span>One-off, never off the shelf</span></div>
+        <div class="fact"><strong>One shop</strong><span>Structural to ornamental</span></div>
       </div>
     </div>
   </section>
 
-  <section class="detail" id="detail" aria-labelledby="detail-h">
-    <div class="wrap sec-head">
-      <h2 id="detail-h">Look closer.</h2>
-      <p>The difference is in the details — clean welds, hand-shaped scrolls, a finish that holds up to Region winters. Inspect the metal before anything else.</p>
-    </div>
-    <div class="strip" tabindex="0" role="region" aria-label="Close-up craftsmanship photos, scroll horizontally">
-      <figure>
-        <img class="photo" src="" alt="Macro close-up of a clean steel weld seam" data-photo-query="macro close-up clean steel weld seam">
-        <figcaption><b>The Weld</b><span>Tight, consistent seams ground and dressed by hand.</span></figcaption>
-      </figure>
-      <figure>
-        <img class="photo" src="" alt="Close-up of hand-forged ornamental iron scrollwork" data-photo-query="hand-forged ornamental iron scrollwork close-up">
-        <figcaption><b>The Scroll</b><span>Ornamental detailing shaped at the forge, not ordered from a catalog.</span></figcaption>
-      </figure>
-      <figure>
-        <img class="photo" src="" alt="Close-up of black powder-coat finish on an iron railing" data-photo-query="black powder coat finish iron railing close-up">
-        <figcaption><b>The Finish</b><span>Durable coatings that stand up to Northwest Indiana weather.</span></figcaption>
-      </figure>
-      <figure>
-        <img class="photo" src="" alt="Forged iron baluster collar and picket detail" data-photo-query="forged iron baluster collar picket detail">
-        <figcaption><b>The Joint</b><span>Collars, knuckles and pickets fit square and true.</span></figcaption>
-      </figure>
-      <figure>
-        <img class="photo" src="" alt="Hot glowing iron bar being hammered on an anvil" data-photo-query="blacksmith hammering glowing iron bar on anvil">
-        <figcaption><b>The Heat</b><span>Real forge work in a real shop in Schererville.</span></figcaption>
-      </figure>
-    </div>
-    <div class="wrap"><p class="strip-hint"><b>→</b> Scroll to inspect</p></div>
-  </section>
-
-  <section class="services" id="services" aria-labelledby="svc-h">
-    <div class="wrap">
-      <div class="sec-head">
-        <h2 id="svc-h">What we build</h2>
-        <p>From a single porch rail to structural stairs for a builder's project — designed and fabricated under one roof.</p>
-      </div>
-      <div class="grid">
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Custom wrought iron railing on a residential deck" data-photo-query="custom wrought iron railing residential deck"></div>
-          <div class="body"><h3>Custom Railings</h3><p>Deck, porch, and interior rail systems designed to your space and built to code.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Custom steel staircase with iron handrail" data-photo-query="custom steel staircase iron handrail"></div>
-          <div class="body"><h3>Staircases</h3><p>Structural metal stairs and stair rail systems integrated into decks, porches, and homes.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Ornamental iron driveway gate" data-photo-query="ornamental iron driveway gate"></div>
-          <div class="body"><h3>Gates</h3><p>Walk and drive gates with hand-forged detailing and hardware that swings right.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Black ornamental iron fence around a home" data-photo-query="black ornamental iron fence residential yard"></div>
-          <div class="body"><h3>Fences</h3><p>Iron fencing that defines a property and stays straight for decades.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Iron balcony railing on a brick building" data-photo-query="wrought iron balcony railing brick building"></div>
-          <div class="body"><h3>Balconies</h3><p>Balcony rails and structural supports for residential and light commercial buildings.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Decorative iron window guards on a house" data-photo-query="decorative iron window guards house"></div>
-          <div class="body"><h3>Window Guards</h3><p>Security that looks like it belongs on the building, not bolted on after.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Fabricated steel access ladder mounted to a building" data-photo-query="fabricated steel access ladder building"></div>
-          <div class="body"><h3>Ladders</h3><p>Fixed steel ladders for access and utility, fabricated to fit the job.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Metal fabricator cutting custom steel parts in a shop" data-photo-query="metal fabricator cutting custom steel parts shop"></div>
-          <div class="body"><h3>Custom Fabrication &amp; Parts</h3><p>One-off brackets, components, and parts for remodelers, builders, and property owners.</p></div>
-        </article>
-        <article class="card">
-          <div class="ph"><img class="photo" src="" alt="Ornamental ironwork with scrolls and leaves" data-photo-query="ornamental ironwork scrolls decorative panel"></div>
-          <div class="body"><h3>Ornamental Ironwork</h3><p>Hand-forged ornament that gives a home character nobody else on the block has.</p></div>
-        </article>
+  <section class="forge" id="forge" aria-labelledby="forge-title">
+    <div class="forge-stage">
+      <div class="wrap">
+        <div class="forge-head">
+          <h2 id="forge-title">Raw stock <span class="hot">&rarr;</span> Finished iron</h2>
+          <p>Scroll to watch bar stock and flat steel turn into a railing that holds a family's weight for decades.</p>
+        </div>
+        <div class="strip" id="strip">
+          <figure class="raw">
+            <img data-photo-query="raw steel bar stock stacked in a metal fabrication shop" alt="Raw steel bar stock stacked in a metal fabrication shop">
+          </figure>
+          <figure class="refined">
+            <img data-photo-query="finished custom black wrought iron railing on a home staircase" alt="Finished custom black wrought iron railing on a home staircase">
+          </figure>
+          <div class="seam" aria-hidden="true"></div>
+          <span class="strip-label l">Raw</span>
+          <span class="strip-label r">Refined</span>
+        </div>
+        <div class="forge-meter" aria-hidden="true"><span>Cut</span><div class="meter"><i></i></div><span>Installed</span></div>
       </div>
     </div>
   </section>
 
-  <div class="proof" role="region" aria-label="Customer rating">
-    <div class="wrap">
-      <div class="big">4.8 / 5</div>
-      <p>Rated by 24 customers across Northwest Indiana and the south Chicagoland suburbs.</p>
-      <a class="btn" href="#contact">Start Your Project</a>
-    </div>
-  </div>
-
-  <section class="shop" id="shop" aria-labelledby="shop-h">
-    <div class="wrap cols">
-      <figure>
-        <img class="photo" src="" alt="Inside a metal fabrication shop with steel stock and welding tables" data-photo-query="metal fabrication shop interior steel stock welding table">
+  <section class="about sec" id="shop" aria-labelledby="shop-title">
+    <div class="wrap about-grid">
+      <figure class="about-photo">
+        <img data-photo-query="welder fabricating ornamental iron railing with sparks in a workshop" alt="Welder fabricating ornamental iron railing with sparks in a workshop">
       </figure>
-      <div>
-        <p class="kicker">The Shop</p>
-        <h2 id="shop-h">An ironworks, not a fence catalog.</h2>
-        <p>Green Acres Ironworks, Inc. is a hands-on fabrication shop on Kennedy Avenue in Schererville. We specialize in designing and fabricating unique, handcrafted railings, stairs, gates and fences.</p>
-        <p>Homeowners come to us for metalwork that's durable and theirs alone. Remodelers and builders come to us for a fabrication partner who delivers custom iron components that fit the first time.</p>
-        <ul class="spec">
-          <li><span><strong>Hand-forged detailing</strong> — ornament shaped in the shop.</span></li>
-          <li><span><strong>One-off fabrication</strong> — built to your measurements, not pulled off a shelf.</span></li>
-          <li><span><strong>Structural metalwork</strong> — integrated into decks, porches, and stairs.</span></li>
-          <li><span><strong>Residential &amp; light commercial</strong> — homes, properties, and contractor jobs.</span></li>
+      <div class="about-copy">
+        <span class="kicker">The Shop</span>
+        <h2 id="shop-title">Welders first. <span class="hot">Craftsmen always.</span></h2>
+        <p>We are a working metal shop on Kennedy Avenue in Schererville. When off-the-shelf railing won't fit the stair, the house, or the way you want it to look, that's where we come in.</p>
+        <p>We draw it, cut it, weld it and finish it ourselves. Straight lines or scrollwork, a single window guard or a full balcony, the work gets the same attention.</p>
+        <ul class="points">
+          <li><strong>Handcrafted, made to order</strong><span>Built for your opening and your design, not pulled from a mass-produced kit.</span></li>
+          <li><strong>Structural and decorative under one roof</strong><span>Stairs and balconies that carry load and still look like a piece of craft.</span></li>
+          <li><strong>Local with direct shop access</strong><span>Based in Schererville, serving Northwest Indiana and the Chicagoland South Suburbs.</span></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section class="contact" id="contact" aria-labelledby="contact-h">
-    <div class="wrap cols">
+  <section class="sec" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">What We Build</span>
+        <h2 id="work-title">If it's steel or iron, <span class="hot">we can make it.</span></h2>
+        <p>From the railing your guests grab on the way up the porch to the custom part nobody else would take on.</p>
+      </div>
+      <div class="services-grid">
+        <article class="svc feature">
+          <figure><img data-photo-query="custom black iron railing on front porch steps" alt="Custom black iron railing on front porch steps"></figure>
+          <div class="svc-body"><h3>Custom Iron Railings</h3><p>Porch, deck, interior and exterior railings designed around your home and built to last.</p></div>
+        </article>
+        <article class="svc feature">
+          <figure><img data-photo-query="custom steel staircase with iron handrail" alt="Custom steel staircase with iron handrail"></figure>
+          <div class="svc-body"><h3>Staircases</h3><p>Structural steel stairs and handrails where strength and good looks have to share the same piece.</p></div>
+        </article>
+        <article class="svc feature">
+          <figure><img data-photo-query="ornamental wrought iron driveway gate" alt="Ornamental wrought iron driveway gate"></figure>
+          <div class="svc-body"><h3>Gates</h3><p>Driveway, garden and walk gates made to swing true and set the tone at the property line.</p></div>
+        </article>
+        <article class="svc">
+          <figure><img data-photo-query="custom wrought iron fence around a residential yard" alt="Custom wrought iron fence around a residential yard"></figure>
+          <div class="svc-body"><h3>Fences</h3><p>Iron fencing that secures the yard without looking like it came off a truck.</p></div>
+        </article>
+        <article class="svc">
+          <figure><img data-photo-query="iron balcony railing on a brick house" alt="Iron balcony railing on a brick house"></figure>
+          <div class="svc-body"><h3>Balconies</h3><p>Structure and ornament combined, built for safety and to look right from the street.</p></div>
+        </article>
+        <article class="svc">
+          <figure><img data-photo-query="decorative iron window guards on a home" alt="Decorative iron window guards on a home"></figure>
+          <div class="svc-body"><h3>Window Guards</h3><p>Security bars with a designed look, fit to each opening.</p></div>
+        </article>
+        <article class="svc">
+          <figure><img data-photo-query="custom steel ladder fabricated in a metal shop" alt="Custom steel ladder fabricated in a metal shop"></figure>
+          <div class="svc-body"><h3>Ladders</h3><p>Fixed and access ladders fabricated to the height and use you need.</p></div>
+        </article>
+        <article class="svc">
+          <figure><img data-photo-query="custom metal parts being welded on a fabrication table" alt="Custom metal parts being welded on a fabrication table"></figure>
+          <div class="svc-body"><h3>Custom Parts &amp; Fabrication</h3><p>One-off brackets, frames and metal parts. Bring the problem, we'll work out the piece.</p></div>
+        </article>
+        <article class="svc">
+          <figure><img data-photo-query="hand forged ornamental iron scrollwork detail" alt="Hand forged ornamental iron scrollwork detail"></figure>
+          <div class="svc-body"><h3>Ornamental Ironwork</h3><p>Hand-forged scrolls, pickets and details that turn a functional piece into the one people notice.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="materials sec" aria-labelledby="mat-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">From the Shop Floor</span>
+        <h2 id="mat-title">Good iron is <span class="hot">honest work.</span></h2>
+        <p>A railing kit is made for every house. Ours is made for yours. Here is what that means in practice.</p>
+      </div>
+      <div class="mat-grid">
+        <div class="mat"><h3>Real steel</h3><p>We work from raw stock, so the size, profile and weight of every piece are chosen for the job.</p></div>
+        <div class="mat"><h3>Hand-forged detail</h3><p>Ornamental elements are shaped by hand, so your design is not limited to what a catalog carries.</p></div>
+        <div class="mat"><h3>Welded to fit</h3><p>Built around your measurements, so it sits right on uneven steps, odd angles and older homes.</p></div>
+        <div class="mat"><h3>Made to last</h3><p>Durable metal built for Midwest seasons, meant to stay put long after the stain on the deck fades.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="process" aria-labelledby="process-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">How It Works</span>
+        <h2 id="process-title">Idea in. <span class="hot">Iron out.</span></h2>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="tag">Start</span><h3>Tell us the project</h3><p>Call the shop and describe what you need. Photos of the space and a rough idea of the look help a lot.</p></li>
+        <li class="step"><span class="tag">Design</span><h3>We draw it up</h3><p>We work out the design and give you a free custom quote for the piece.</p></li>
+        <li class="step"><span class="tag">Build</span><h3>We make it by hand</h3><p>Your railing, stair or gate is fabricated in our Schererville shop, one piece at a time.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact sec" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
       <div>
-        <p class="kicker">Free Custom Quote</p>
-        <h2 id="contact-h">Bring us the <span>project.</span></h2>
-        <p>Railing, gate, stair, or fence — tell us what you're picturing and we'll talk through design, material, and finish. Consultations and quotes are free.</p>
-        <div class="facts">
-          <div class="fact"><span class="stamp">Call the shop</span><a href="tel:+12199409295">(219) 940-9295</a></div>
-          <div class="fact"><span class="stamp">Visit</span><address>1040 Kennedy Ave Ste 409<br>Schererville, IN 46375</address></div>
-          <div class="fact"><span class="stamp">Serving</span><span style="color:var(--white)">Schererville, Northwest Indiana &amp; the south Chicagoland suburbs</span></div>
+        <span class="kicker">Free Custom Quote</span>
+        <h2 id="contact-title">Got a project? <span class="hot">Bring it to the shop.</span></h2>
+        <p class="lede">Railings, stairs, gates, fences or a part nobody else will make. Call Green Acres Ironworks and tell us what you're building.</p>
+        <a class="phone-big" href="tel:+12199409295">(219) 940-9295</a>
+        <div class="hero-actions">
+          <a class="btn btn-hot" href="tel:+12199409295">Call for a Free Quote</a>
+          <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=1040+Kennedy+Ave+Ste+409+Schererville+IN+46375">Get Directions</a>
         </div>
       </div>
-      <form action="#" method="post" aria-labelledby="form-h">
-        <h3 id="form-h">Request a Quote</h3>
-        <label>Name<input type="text" name="name" autocomplete="name" required></label>
-        <label>Phone<input type="tel" name="phone" autocomplete="tel" required></label>
-        <label>Email<input type="email" name="email" autocomplete="email"></label>
-        <label>Project type
-          <select name="project">
-            <option>Custom Railings</option>
-            <option>Staircase</option>
-            <option>Gate</option>
-            <option>Fence</option>
-            <option>Balcony</option>
-            <option>Window Guards</option>
-            <option>Ladder</option>
-            <option>Custom Fabrication / Parts</option>
-            <option>Ornamental Ironwork</option>
-          </select>
-        </label>
-        <label>Tell us about it<textarea name="details" placeholder="Location, size, style, timeline…"></textarea></label>
-        <button class="btn" type="submit">Send Request</button>
-        <p class="note">Prefer to talk? Call (219) 940-9295.</p>
-      </form>
+      <aside class="info" aria-label="Contact details">
+        <dl>
+          <div><dt>Business</dt><dd>Green Acres Ironworks, Inc.</dd></div>
+          <div><dt>Shop Address</dt><dd>1040 Kennedy Ave Ste 409<br>Schererville, IN 46375</dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+12199409295">(219) 940-9295</a></dd></div>
+          <div><dt>Website</dt><dd><a href="http://www.greenacresironworks.com">greenacresironworks.com</a></dd></div>
+          <div><dt>Service Area</dt><dd>Northwest Indiana and the Chicagoland South Suburbs</dd></div>
+        </dl>
+        <div class="bring">
+          When you call, it helps to have:
+          <ul>
+            <li>Rough measurements of the space</li>
+            <li>A few photos of where it goes</li>
+            <li>Any style you like, even a sketch</li>
+          </ul>
+        </div>
+      </aside>
     </div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <div>
-      <span class="plate">GREEN ACRES IRONWORKS</span>
-      <p style="margin-top:.8rem">Green Acres Ironworks, Inc. · 1040 Kennedy Ave Ste 409, Schererville, IN 46375 · <a href="tel:+12199409295">(219) 940-9295</a></p>
-      <p>© 2026 Green Acres Ironworks, Inc.</p>
-    </div>
-    <p>Website sample by Wild Card Creative Co</p>
+    <div><strong>Green Acres Ironworks, Inc.</strong><br>1040 Kennedy Ave Ste 409, Schererville, IN 46375 &middot; <a href="tel:+12199409295">(219) 940-9295</a></div>
+    <div>&copy; 2026 Green Acres Ironworks, Inc. &middot; Website sample by Wild Card Creative Co</div>
   </div>
 </footer>
+
+<nav class="callbar" aria-label="Quick contact">
+  <a class="c1" href="tel:+12199409295">Call the Shop</a>
+  <a class="c2" href="#contact">Free Quote</a>
+</nav>
+
+<script>
+(function(){
+  var forge=document.getElementById('forge');
+  if(!forge||window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var ticking=false;
+  function update(){
+    var r=forge.getBoundingClientRect();
+    var total=forge.offsetHeight-window.innerHeight;
+    var p=total>0?Math.min(Math.max(-r.top/total,0),1):1;
+    forge.style.setProperty('--p',(p*100).toFixed(2)+'%');
+    ticking=false;
+  }
+  function onScroll(){ if(!ticking){ticking=true;requestAnimationFrame(update);} }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  update();
+})();
+</script>
 </body>
 </html>
